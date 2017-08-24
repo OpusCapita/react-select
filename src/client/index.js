@@ -1,8 +1,11 @@
-// Here should be CommonJS component exports.
+import Select from './components/Select';
+import Async from './components/Async';
+import AsyncCreatable from './components/AsyncCreatable';
+import Creatable from './components/Creatable';
 
-module.exports = {
-  default: require('./components/Select').default,
-  Async: require('./components/Async').default,
-  AsyncCreatable: require('./components/AsyncCreatable'),
-  Creatable: require('./components/Creatable').default
-};
+export default Select;
+export {
+  Async,
+  AsyncCreatable,
+  Creatable
+}
