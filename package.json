@@ -1,6 +1,6 @@
 {
   "name": "@opuscapita/react-select",
-  "version": "1.0.0-rc.5-oc.5",
+  "version": "1.0.0-rc.5-oc.6",
   "description": "react-select with opuscapita styles",
   "scripts": {
     "build": "rimraf lib && cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --hide-modules",
