@@ -1,3 +1,7 @@
+## [v1.0.0-rc.5-oc.1](https://github.com/OpusCapita/react-select/compare/v1.0.0-rc.5-oc-1...v1.0.0-rc.5-oc.1) (Thu, 24 Aug 2017 13:59:02 GMT)
+ - Fix version (Kirill Volkovich <volkovich@scand.com>, 17b4bf8)
+ - Fix lint, exports (Kirill Volkovich <volkovich@scand.com>, fccb109)
+
 ## [v1.0.0-rc.6](https://github.com/OpusCapita/react-select/compare/v1.0.0-rc.5-oc-1...v1.0.0-rc.6) (Thu, 24 Aug 2017 13:58:16 GMT)
  - Fix lint, exports (Kirill Volkovich <volkovich@scand.com>, fccb109)
 
