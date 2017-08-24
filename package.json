@@ -1,6 +1,6 @@
 {
-  "name": "opuscapita-react-select",
-  "version": "1.0.0-rc.3",
+  "name": "@opuscapita/react-select",
+  "version": "1.0.0-rc.5",
   "description": "react-select with opuscapita styles",
   "scripts": {
     "build": "rimraf lib && babel --copy-files --no-babelrc --presets es2015,stage-0,react --plugins transform-decorators-legacy --ignore __tests__,*.spec.js,demo src/client/components --out-dir lib",
@@ -11,11 +11,9 @@
     "start": "node www/index",
     "test": "mocha --compilers js:babel-core/register --require ignore-styles --require ./test/setup.js --recursive src/**/*.spec.js"
   },
-  "author": {
-    "name": "volkovich",
-    "email": "kirill.volkovich@jcatalog.com"
-  },
+  "license": "Apache-2.0",
   "main": "lib/index.js",
+  "repository": "OpusCapita/react-select",
   "files": [
     "lib",
     "README.md"
@@ -72,6 +70,6 @@
     "write-file-webpack-plugin": "^3.4.2"
   },
   "dependencies": {
-    "react-select": "^1.0.0-rc.2"
+    "react-select": "1.0.0-rc.5"
   }
 }
