@@ -11,6 +11,10 @@
     "start": "node www/index",
     "test": "mocha --compilers js:babel-core/register --require ignore-styles --require ./test/setup.js --recursive src/**/*.spec.js"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "license": "Apache-2.0",
   "main": "lib/index.js",
   "repository": "OpusCapita/react-select",
