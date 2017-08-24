@@ -1,6 +1,6 @@
 {
   "name": "@opuscapita/react-select",
-  "version": "1.0.0-rc.7",
+  "version": "1.0.0-rc.5-oc.1",
   "description": "react-select with opuscapita styles",
   "scripts": {
     "build": "rimraf lib && babel --copy-files --no-babelrc --presets es2015,stage-0,react --plugins transform-decorators-legacy --ignore __tests__,*.spec.js,demo src/client/components --out-dir lib",
