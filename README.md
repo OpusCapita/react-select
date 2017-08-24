@@ -1,6 +1,6 @@
 ## Synopsis
 
-Just a fight with styles "copy-paste" across components + styles isolation because **react-select** periodically breaks self styles
+Just a fight with styles "copy-paste" across components + styles isolation because [react-select](https://github.com/JedWatson/react-select) periodically breaks self styles
 
 See interactive example for more details: https://opuscapita.github.io/react-select
 
