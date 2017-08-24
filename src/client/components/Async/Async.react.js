@@ -1,15 +1,15 @@
 import React, { Component, PropTypes } from 'react';
-import ReactSelect from 'react-select';
-import './SelectDefault.less';
-import './SelectCustom.less';
+import { Async as ReactAsync } from 'react-select';
+import '../Select/SelectDefault.less';
+import '../Select/SelectCustom.less';
 
 export default
-class Select extends Component {
+class Async extends Component {
   render() {
     let { className, ...restProps } = this.props;
 
     return (
-      <ReactSelect
+      <ReactAsync
         className={`opuscapita_react-select--1-0-0-rc-5-oc-1 ${className}`}
         { ...restProps }
       />
@@ -17,9 +17,9 @@ class Select extends Component {
   }
 }
 
-Select.propTypes = {
+Async.propTypes = {
   className: PropTypes.string
 };
-Select.defaultProps = {
+Async.defaultProps = {
   className: ''
 };

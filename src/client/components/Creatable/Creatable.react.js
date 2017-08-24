@@ -1,15 +1,15 @@
 import React, { Component, PropTypes } from 'react';
-import ReactSelect from 'react-select';
-import './SelectDefault.less';
-import './SelectCustom.less';
+import { Creatable as ReactCreatable } from 'react-select';
+import '../Select/SelectDefault.less';
+import '../Select/SelectCustom.less';
 
 export default
-class Select extends Component {
+class Creatable extends Component {
   render() {
     let { className, ...restProps } = this.props;
 
     return (
-      <ReactSelect
+      <ReactCreatable
         className={`opuscapita_react-select--1-0-0-rc-5-oc-1 ${className}`}
         { ...restProps }
       />
@@ -17,9 +17,9 @@ class Select extends Component {
   }
 }
 
-Select.propTypes = {
+Creatable.propTypes = {
   className: PropTypes.string
 };
-Select.defaultProps = {
+Creatable.defaultProps = {
   className: ''
 };

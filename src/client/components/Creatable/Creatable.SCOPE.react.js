@@ -1,6 +1,6 @@
 /*
    What is a SCOPE file. See documentation here:
-   https://github.com/OpusCapitaBES/js-react-showroom-client/blob/master/docs/scope-component.md
+   https://github.com/OpusCapita/react-showroom-client/blob/master/docs/scope-component.md
 */
 
 import React, { Component, PropTypes } from 'react';
@@ -8,17 +8,10 @@ import { showroomScopeDecorator } from '@opuscapita/react-showroom-client';
 
 @showroomScopeDecorator
 export default
-class SelectScope extends Component {
+class CreatableScope extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      value: null
-    };
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(value) {
-    this.setState({ value });
+    this.state = {};
   }
 
   render() {
@@ -30,9 +23,9 @@ class SelectScope extends Component {
   }
 }
 
-SelectScope.contextTypes = {
+CreatableScope.contextTypes = {
   i18n: PropTypes.object
 };
-SelectScope.childContextTypes = {
+CreatableScope.childContextTypes = {
   i18n: PropTypes.object
 };

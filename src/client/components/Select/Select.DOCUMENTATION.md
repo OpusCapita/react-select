@@ -1,19 +1,13 @@
 ### Synopsis
 
-Select is 
-*Write here a short introduction and/or overview that explains **what** component is.*
+Just a wrapper around **AWESOME react-select** with OpusCapita specific styles
 
-### Props Reference
-
-| Name                           | Type                    | Description                                                 |
-| ------------------------------ | :---------------------- | ----------------------------------------------------------- |
-| demoProp                       | string                  | Write a description of the property                         |
+See documentation of [react-select](https://github.com/JedWatson/react-select)
 
 ### Code Example
 
 ```
 <Select
-  multi={false}
   options={[
     { label: 'Chocolate', value: 'chocolate' },
 	  { label: 'Vanilla', value: 'vanilla' },
