@@ -71,6 +71,7 @@
     "write-file-webpack-plugin": "3.4.2"
   },
   "dependencies": {
-    "react-select": "1.0.0-rc.5"
+    "react-select": "1.0.0-rc.5",
+    "webpack-bundle-analyzer": "2.9.0"
   }
 }
