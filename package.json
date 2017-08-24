@@ -3,7 +3,7 @@
   "version": "1.0.0-rc.5-oc.2",
   "description": "react-select with opuscapita styles",
   "scripts": {
-    "build": "rimraf lib && cross-env NODE_ENV=production webpack --config ./config/webpack.config.js --hide-modules",
+    "build": "rimraf lib && cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --hide-modules",
     "link-mode": "webpack --watch --config ./webpack.link.config.js",
     "lint": "eslint src/client",
     "publish-release": "npm run build && npm-publish --release",
