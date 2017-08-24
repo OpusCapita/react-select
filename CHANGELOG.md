@@ -1,0 +1,6 @@
+## [v1.0.0-rc.5-oc-1](https://github.com/OpusCapita/react-select/compare/null...v1.0.0-rc.5-oc-1) (Thu, 24 Aug 2017 13:56:07 GMT)
+ - Fix build (Kirill Volkovich <volkovich@scand.com>, e192772)
+ - Ready to release (Kirill Volkovich <volkovich@scand.com>, 946755a)
+ - Update (Kirill Volkovich <volkovich@scand.com>, 1969f44)
+ - Initial commit (Kirill Volkovich <volkovich@scand.com>, 9f14dbe)
+
