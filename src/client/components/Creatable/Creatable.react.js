@@ -10,7 +10,7 @@ class Creatable extends Component {
 
     return (
       <ReactCreatable
-        className={`opuscapita_react-select--1-0-0-rc-5-oc-1 ${className}`}
+        className={`opuscapita_react-select--1-0-0-rc-5-oc-6 ${className}`}
         { ...restProps }
       />
     );
