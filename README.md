@@ -9,3 +9,9 @@ See interactive example for more details: https://opuscapita.github.io/react-sel
 | [<img src="https://avatars.githubusercontent.com/u/24603787?v=3" width="100px;"/>](https://github.com/asergeev-sc) | [**Alexey Sergeev**](https://github.com/asergeev-sc)     |
 | :---: | :---: |
 | [<img src="https://avatars.githubusercontent.com/u/24652543?v=3" width="100px;"/>](https://github.com/kvolkovich-sc) | [**Kirill Volkovich**](https://github.com/kvolkovich-sc) |
+
+# Usage
+
+`import Select from '@opuscapita/react-select`
+
+API docs here: http://jedwatson.github.io/react-select/
