@@ -4,11 +4,6 @@ Just a wrapper around **AWESOME react-select** with OpusCapita specific styles
 
 See documentation of [react-select](https://github.com/JedWatson/react-select)
 
-### Props Reference
-
-| Name                           | Type                    | Description                                                 |
-| ------------------------------ | :---------------------- | ----------------------------------------------------------- |
-| demoProp                       | string                  | Write a description of the property                         |
 
 ### Code Example
 
