@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import { AsyncCreatable as ReactAsyncCreatable } from 'react-select';
 import '../Select/SelectDefault.less';
 import '../Select/SelectCustom.less';
