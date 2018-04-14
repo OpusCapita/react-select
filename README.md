@@ -12,6 +12,6 @@ See interactive example for more details: https://opuscapita.github.io/react-sel
 
 # Usage
 
-`import Select from '@opuscapita/react-select`
+`import Select from '@opuscapita/react-select'`
 
 API docs here: http://jedwatson.github.io/react-select/
