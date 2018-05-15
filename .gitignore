@@ -3,8 +3,10 @@
 .idea
 tmp
 npm-debug.log
+package-lock.json
 /static
 /build
 /lib
 node_modules
+.gh-pages-tmp
 yarn.lock

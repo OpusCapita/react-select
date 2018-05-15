@@ -3,25 +3,27 @@
   "version": "1.0.0-oc.2",
   "description": "react-select with opuscapita styles",
   "scripts": {
-    "build": "rimraf lib && cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --hide-modules",
     "link-mode": "webpack --watch --config ./webpack.link.config.js",
     "lint": "eslint src/client",
-    "publish-release": "npm run build && npm-publish --release",
-    "prepublish": "npm run build",
-    "start": "node www/index",
-    "test": "mocha --compilers js:babel-core/register --require ignore-styles --require ./test/setup.js --recursive src/**/*.spec.js"
+    "start": "showroom-scan src && node www/index",
+    "gh-pages-generate": "showroom-scan src && sh scripts/gh-pages/generate.sh",
+    "gh-pages-deploy": "npm run gh-pages-generate && sh scripts/gh-pages/deploy.sh .gh-pages-tmp",
+    "npm-build": "rimraf lib && cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --hide-modules",
+    "npm-publish": "npm run npm-build && npm publish",
+    "publish-release": "npm run npm-publish"
   },
+  "repository": "OpusCapita/react-select",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "license": "Apache-2.0",
   "main": "lib/index.js",
-  "repository": "OpusCapita/react-select",
   "files": [
     "lib",
     "README.md"
   ],
+  "readme": "README.md",
   "peerDependencies": {
     "react": "^15.6.2 || ^16.2.0",
     "react-dom": "^15.6.2 || ^16.2.0"
@@ -75,7 +77,6 @@
     "write-file-webpack-plugin": "3.4.2"
   },
   "dependencies": {
-    "react-select": "1.1.0",
-    "webpack-bundle-analyzer": "2.9.0"
+    "react-select": "1.1.0"
   }
 }

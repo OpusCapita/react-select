@@ -13,18 +13,6 @@ config.plugins = config.plugins.concat([
     'process.env': {
       'NODE_ENV': '"production"'
     }
-  }),
-  new BundleAnalyzerPlugin({
-    analyzerMode: 'static',
-    analyzerHost: '127.0.0.1',
-    analyzerPort: 8888,
-    reportFilename: 'report.html',
-    defaultSizes: 'parsed',
-    openAnalyzer: true,
-    generateStatsFile: false,
-    statsFilename: 'stats.json',
-    statsOptions: null,
-    logLevel: 'info'
   })
 ]);
 
