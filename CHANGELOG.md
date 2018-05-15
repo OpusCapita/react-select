@@ -1,3 +1,15 @@
+
+Release 1.0.0-oc.1 Tue May 15 2018 16:51:26 GMT+0300 (MSK)
+=======================================================
+
+- Fixing build process (Alexey Sergeev sab@scand.com, 2018-05-15 16:29:00 +0300)
+- Fixing build process (Alexey Sergeev sab@scand.com, 2018-05-15 16:21:03 +0300)
+- Fixing build process (Alexey Sergeev sab@scand.com, 2018-05-15 16:15:46 +0300)
+- Reconfiguring build process (Alexey Sergeev sab@scand.com, 2018-05-15 15:57:52 +0300)
+- Updated border colors (Sergey Tamkov tamkov@scand.com, 2018-05-15 15:04:48 +0300)
+- Update README.md (GitHub kvolkovich-sc@users.noreply.github.com, 2018-04-14 17:36:25 +0300)
+- Update package.json (GitHub kvolkovich-sc@users.noreply.github.com, 2018-01-31 13:07:17 +0300)
+- Updating to a version to  1.0.0-oc.1 (Kirill Volkovich kirill.volkovich@jcatalog.com, 2017-12-14 19:48:06 +0300)
 ## [v1.0.0-oc.0](https://github.com/OpusCapita/react-select/compare/v1.0.0-rc.5-oc-1...v1.0.0-oc.0) (Thu, 14 Dec 2017 16:47:51 GMT)
  - Drop React v. 0.14.x support (Kirill Volkovich <kirill.volkovich@jcatalog.com>, 507cff1)
  - Update "react-select" to v1.0.0 (Kirill Volkovich <kirill.volkovich@jcatalog.com>, 9db4fd5)
