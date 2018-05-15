@@ -10,7 +10,7 @@ jobs:
     steps:
       - run:
           name: Environment inject.
-          command: env_inject.sh
+          command: /bin/env_inject.sh
 
       - checkout
 
@@ -132,7 +132,7 @@ jobs:
 
       - run:
           name: Environment inject
-          command: env_inject.sh
+          command: /bin/env_inject.sh
 
       - checkout
 
