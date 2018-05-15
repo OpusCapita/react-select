@@ -1,4 +1,10 @@
 
+Release 1.0.0-oc.2 Tue May 15 2018 16:55:26 GMT+0300 (MSK)
+=======================================================
+
+- Merge branch 'master' of https://github.com/OpusCapita/react-select (Alexey Sergeev sab@scand.com, 2018-05-15 16:54:19 +0300)
+- Fixing build process [skip ci] (Alexey Sergeev sab@scand.com, 2018-05-15 16:54:12 +0300)
+
 Release 1.0.0-oc.1 Tue May 15 2018 16:51:26 GMT+0300 (MSK)
 =======================================================
 
