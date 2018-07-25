@@ -1,4 +1,10 @@
 
+[Release 1.0.0-oc.3](https://github.com/OpusCapita/react-select/releases/tag/v1.0.0-oc.3) Wed Jul 25 2018 10:20:55 GMT+0300 (MSK)
+=======================================================
+
+- Set proper CSS classes version (Kirill Volkovich kirill.volkovich@opuscapita.com, 2018-07-25 10:18:24 +0300)
+-  [#2](https://github.com/OpusCapita/react-select/issues/2) Remove shadow for unfocused "Select" wrapped with .has-error el (PR [#3](https://github.com/OpusCapita/react-select/issues/3)) (GitHub kvolkovich-sc@users.noreply.github.com, 2018-07-25 10:12:20 +0300)
+
 Release 1.0.0-oc.2 Tue May 15 2018 16:55:26 GMT+0300 (MSK)
 =======================================================
 
