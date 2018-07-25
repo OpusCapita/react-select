@@ -11,7 +11,7 @@ class Select extends Component {
 
     return (
       <ReactSelect
-        className={`opuscapita_react-select--1-0-0 ${className}`}
+        className={`opuscapita_react-select--1-0-0-oc-3 ${className}`}
         { ...restProps }
       />
     );
