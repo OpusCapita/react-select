@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { AsyncCreatable as ReactAsyncCreatable } from 'react-select';
-import '../Select/SelectDefault.less';
 import '../Select/SelectCustom.less';
 
 export default
@@ -11,7 +10,8 @@ class AsyncCreatable extends Component {
 
     return (
       <ReactAsyncCreatable
-        className={`opuscapita_react-select--1-0-0-oc-3 ${className}`}
+        className={`opuscapita_react-select--2-0-0 ${className}`}
+        classNamePrefix="opuscapita_react-select"
         { ...restProps }
       />
     );
@@ -19,8 +19,10 @@ class AsyncCreatable extends Component {
 }
 
 AsyncCreatable.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  isClearable: PropTypes.bool
 };
 AsyncCreatable.defaultProps = {
-  className: ''
+  className: '',
+  isClearable: true
 };

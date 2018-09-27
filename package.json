@@ -77,6 +77,6 @@
     "write-file-webpack-plugin": "3.4.2"
   },
   "dependencies": {
-    "react-select": "1.1.0"
+    "react-select": "2.0.0"
   }
 }

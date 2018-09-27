@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Async as ReactAsync } from 'react-select';
-import '../Select/SelectDefault.less';
+import AsyncSelect from 'react-select/lib/Async';
 import '../Select/SelectCustom.less';
 
 export default
@@ -10,8 +9,9 @@ class Async extends Component {
     let { className, ...restProps } = this.props;
 
     return (
-      <ReactAsync
-        className={`opuscapita_react-select--1-0-0-oc-3 ${className}`}
+      <AsyncSelect
+        className={`opuscapita_react-select--2-0-0 ${className}`}
+        classNamePrefix="opuscapita_react-select"
         { ...restProps }
       />
     );
@@ -19,8 +19,10 @@ class Async extends Component {
 }
 
 Async.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  isClearable: PropTypes.bool
 };
 Async.defaultProps = {
-  className: ''
+  className: '',
+  isClearable: true
 };

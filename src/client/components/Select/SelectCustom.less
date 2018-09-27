@@ -1,117 +1,140 @@
-.input-group .opuscapita_react-select--1-0-0-oc-3 .Select-control {
-  z-index: 2;
-}
+.opuscapita_react-select--2-0-0 {
+  .opuscapita_react-select {
+    &__control {
+      border-radius: 0;
+      /*height: 34px;*/
+      min-height: 34px;
+      border: 1px solid #d3dade;
+      background-color: #ffffff;
 
-.opuscapita_react-select--1-0-0-oc-3 .Select-control {
-  border-radius: 0;
-  height: 34px;
-  border: 1px solid #d3dade;
-}
+      &:hover {
+        border: 1px solid #d3dade;
+      }
 
-.opuscapita_react-select--1-0-0-oc-3 .Select-input {
-  height: 32px;
-}
+      .has-error & {
+          border-color: #a94442;
+          box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075), 0 0 0 #ce8483;
+          transition: box-shadow 180ms ease-in-out;
+      }
 
-.opuscapita_react-select--1-0-0-oc-3 .Select-input > input {
-  padding: 8px 0 8px;
-}
+      &--is-focused,
+      &--is-focused:hover {
+        border-color: #067;
+        outline: 0;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(51, 102, 153, 0.6);
+        z-index: 10;
 
-.opuscapita_react-select--1-0-0-oc-3 .Select-input input::-ms-clear {
-  display: none;
-}
+        .opuscapita_react-select {
+          &__dropdown-indicator {
+            &::after {
+              border-top-color: #666;
+            }
+          }
+        }
+      }
+    }
 
-.opuscapita_react-select--1-0-0-oc-3.is-focused:not(.is-open) > .Select-control {
-  border-color: #ccc;
-  box-shadow: none;
-}
+    &__multi-value {
+      background-color: #ffffff;
+      border: 1px solid #d3dade;
+      cursor: pointer;
 
-.opuscapita_react-select--1-0-0-oc-3 .Select-value-label {
-  display: inline-block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: calc(~"100% - 36px");
-}
+      &__label {
+        padding-right: 6px;
+      }
 
-.opuscapita_react-select--1-0-0-oc-3.Select.Select--multi .Select-value-label {
-  padding-right: 1em;
-  max-width: calc(~"20em - 10px");
-}
+      &__remove {
+        border-left: 1px solid #d3dade;
 
-.opuscapita_react-select--1-0-0-oc-3 .Select-clear-zone,
-.opuscapita_react-select--1-0-0-oc-3 .Select-arrow-zone {
-  vertical-align: top;
-  padding-top: 6px;
-}
+        &:hover,
+        &:focus {
+          background-color: #ccc;
+          color: #555;
+        }
 
-.opuscapita_react-select--1-0-0-oc-3.Select--multi .Select-value {
-  color: #555;
-  background-color: #ffffff;
-  border: 1px solid #d3dade;
-  white-space: nowrap;
-}
+      }
+    }
 
-.opuscapita_react-select--1-0-0-oc-3.Select--multi .Select-value-icon {
-  border-right: 1px solid #d3dade;
-}
+    &__indicator {
+      padding: 8px 4px;
+    }
 
-.opuscapita_react-select--1-0-0-oc-3.Select--multi .Select-value-icon:hover,
-.opuscapita_react-select--1-0-0-oc-3.Select--multi .Select-value-icon:focus {
-  background-color: #ccc;
-  color: #555;
-}
+    &__indicator-separator {
+      display: none;
+    }
 
-.has-error .opuscapita_react-select--1-0-0-oc-3.Select-control {
-  border-color: #a94442;
-  box-shadow: inset 0 1px 0 rgba(0,0,0,0.075), 0 0 0 #ce8483;
-  transition: box-shadow 180ms ease-in-out;
-}
+    &__clear-indicator {
+      &::after {
+        content:'×';
+        display: inline-block;
+        font-size: 18px;
+        line-height: 1;
+        color: #999;
+        cursor: pointer;
+        margin-top: -2px;
+      }
+      &:hover{
+        &::after {
+          color:#D0021B;
+        }
+      }
 
-.has-error .opuscapita_react-select--1-0-0-oc-3.Select .Select-menu-outer {
-  box-shadow: inset 0 1px 0 rgba(0,0,0,0.075),0 0 0 #ce8483;
-}
+      svg {
+        display: none;
+      }
+    }
 
-.opuscapita_react-select--1-0-0-oc-3.Select.is-open,
-.has-error .opuscapita_react-select--1-0-0-oc-3.Select.is-open {
-  z-index: 999;
-}
+    &__dropdown-indicator {
+      &::after {
+        content: '';
+        border-color: #999 transparent transparent;
+        border-style: solid;
+        border-width: 5px 5px 2.5px;
+        display: inline-block;
+        height: 0;
+        width: 0;
+        position: relative;
+        margin: 6px 7px 2px 0;;
+      }
 
-.opuscapita_react-select--1-0-0-oc-3.Select.is-focused .Select-menu-outer {
-  border-radius: 0;
-}
+      &:hover {
+        cursor: pointer;
+        &::after {
+          border-top-color: #666;
+        }
+      }
 
-.opuscapita_react-select--1-0-0-oc-3.Select.is-focused .Select-control {
-  border-color: #067;
-  outline: 0;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(51, 102, 153, 0.6);
-  z-index: 10;
-}
+      svg {
+        display: none;
+      }
+    }
 
-.has-error .opuscapita_react-select--1-0-0-oc-3.Select .Select-menu-outer {
-  border-left-color: #a94442;
-  border-right-color: #a94442;
-  border-bottom-color: #a94442;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 3px 6px #ce8483;
-  z-index: 1;
-}
+    &__menu {
+      margin-top: -1px;
+      border: 1px solid #369;
+      border-radius: 0;
+      box-shadow: none;
 
-.has-error .opuscapita_react-select--1-0-0-oc-3.Select .Select-control {
-  border-color: #a94442;
-}
+      .opuscapita_react-select {
+        &__menu-list {
+          padding-top: 0;
+          padding-bottom: 0;
+          max-height: 198px;
+          overflow-y: auto;
+        }
 
-.has-error .opuscapita_react-select--1-0-0-oc-3.Select .Select-placeholder,
-.opuscapita_react-select--1-0-0-oc-3:not(.Select--multi) > .Select-control .Select-value {
-  padding-right: 9px;
-}
-
-.has-error .opuscapita_react-select--1-0-0-oc-3.Select.is-focused .Select-control {
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #ce8483;
-  transition: box-shadow 180ms ease-in-out;
-}
-
-.opuscapita_react-select--1-0-0-oc-3.Select.is-focused .Select-menu-outer {
-  border-left-color: #067;
-  border-right-color: #067;
-  border-bottom-color: #067;
-  z-index: 1;
+        &__option {
+          color: #666666;
+          cursor: pointer;
+          padding: 8px 10px;
+          &--is-selected {
+            background-color: rgba(0, 126, 255, 0.04);
+          }
+          &--is-focused {
+            background-color: rgba(0, 126, 255, 0.08);
+          }
+        }
+      }
+    }
+  }
 }

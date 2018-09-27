@@ -7,7 +7,17 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
 ### Code Example
 
 ```
-<Creatable />
+<Creatable 
+  options={[
+      { label: 'Chocolate', value: 'chocolate' },
+  	  { label: 'Vanilla', value: 'vanilla' },
+  	  { label: 'Strawberry', value: 'strawberry' },
+  	  { label: 'Caramel', value: 'caramel' },
+  	  { label: 'Cookies and Cream', value: 'cookiescream' },
+  	  { label: 'Peppermint', value: 'peppermint' }
+    ]}
+  isMulti
+/>
 ```
 
 ### Component Name
