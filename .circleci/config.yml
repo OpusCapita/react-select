@@ -16,19 +16,16 @@ jobs:
 
       - restore_cache:
           keys:
-            - v1-react-select-{{ .Branch }}-{{ checksum "package.json" }}
-            - v1-react-select-{{ .Branch }}
-            - v1-react-select
+            - v2-react-select-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run:
           name: "Installing dependencies."
           command: npm install
 
       - save_cache:
-          key: v1-react-select-{{ .Branch }}-{{ checksum "package.json" }}
+          key: v2-react-select-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-            - ./package-lock.json
 
       - run:
           name: "Running lint."
@@ -61,8 +58,6 @@ jobs:
       - restore_cache:
           keys:
             - react-select-{{ .Branch }}-{{ checksum "package.json" }}
-            - react-select-{{ .Branch }}
-            - react-select
 
       - run:
           name: "Installing dependencies."
@@ -72,7 +67,6 @@ jobs:
           key: react-select-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
               - ./node_modules
-              - ./package-lock.json
 
       - run:
           name: deploy-gh-pages
@@ -101,7 +95,6 @@ jobs:
           key: react-select-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
               - ./node_modules
-              - ./package-lock.json
 
       - run:
           name: "Running lint."
