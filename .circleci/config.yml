@@ -16,14 +16,14 @@ jobs:
 
       - restore_cache:
           keys:
-            - v2-react-select-{{ .Branch }}-{{ checksum "package.json" }}
+            - v3-react-select-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run:
           name: "Installing dependencies."
           command: npm install
 
       - save_cache:
-          key: v2-react-select-{{ .Branch }}-{{ checksum "package.json" }}
+          key: v3-react-select-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - ./node_modules
 
@@ -57,14 +57,14 @@ jobs:
 
       - restore_cache:
           keys:
-            - react-select-{{ .Branch }}-{{ checksum "package.json" }}
+            - v3-react-select-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run:
           name: "Installing dependencies."
           command: npm install
 
       - save_cache:
-          key: react-select-{{ .Branch }}-{{ checksum "package.json" }}
+          key: v3-react-select-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
               - ./node_modules
 
@@ -83,16 +83,14 @@ jobs:
 
       - restore_cache:
           keys:
-            - react-select-{{ .Branch }}-{{ checksum "package.json" }}
-            - react-select-{{ .Branch }}
-            - react-select
+            - v3-react-select-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run:
           name: "Installing dependencies."
           command: npm install
 
       - save_cache:
-          key: react-select-{{ .Branch }}-{{ checksum "package.json" }}
+          key: v3-react-select-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
               - ./node_modules
 
