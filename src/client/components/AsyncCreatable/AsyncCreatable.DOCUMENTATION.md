@@ -7,18 +7,36 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
 ### Code Example
 
 ```
-<AsyncCreatable
-  loadOptions={
-    (inputValue, callback) => {
-      setTimeout(() => {
-        callback([
-          { value: 'one', label: 'One' },
-          { value: 'two', label: 'Two' }
-        ].filter(item=>item.value === inputValue || item.label === inputValue));
-      }, 1000);
+<div>
+  <div style={{ marginBottom: '20px' }}>
+    <AsyncCreatable
+      loadOptions={
+        (inputValue, callback) => {
+          setTimeout(() => {
+            callback([
+              { value: 'one', label: 'One' },
+              { value: 'two', label: 'Two' }
+            ].filter(item=>item.value === inputValue || item.label === inputValue));
+          }, 1000);
+        }
+      }
+    />
+  </div>
+  <AsyncCreatable
+    loadOptions={
+      (inputValue, callback) => {
+        setTimeout(() => {
+          callback([
+            { value: 'one', label: 'One' },
+            { value: 'two', label: 'Two' }
+          ].filter(item=>item.value === inputValue || item.label === inputValue));
+        }, 1000);
+      }
     }
-  }
-/>
+    placeholder='Select with Portal'
+    menuPortalTarget={document.body}
+  />
+</div>
 ```
 
 ### Component Name

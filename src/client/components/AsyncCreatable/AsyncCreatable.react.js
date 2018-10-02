@@ -2,17 +2,19 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { AsyncCreatable as ReactAsyncCreatable } from 'react-select';
 import '../Select/SelectCustom.less';
+import MenuPortal from '../MenuPortal__fix.react';
 
 export default
 class AsyncCreatable extends Component {
   render() {
-    let { className, ...restProps } = this.props;
+    const { className, ...restProps } = this.props;
 
     return (
       <ReactAsyncCreatable
         className={`opuscapita_react-select--2-0-0 ${className}`}
         classNamePrefix="opuscapita_react-select"
-        { ...restProps }
+        components={{ MenuPortal }}
+        {...restProps}
       />
     );
   }

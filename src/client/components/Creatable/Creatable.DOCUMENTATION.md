@@ -7,17 +7,34 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
 ### Code Example
 
 ```
-<Creatable 
-  options={[
-      { label: 'Chocolate', value: 'chocolate' },
-  	  { label: 'Vanilla', value: 'vanilla' },
-  	  { label: 'Strawberry', value: 'strawberry' },
-  	  { label: 'Caramel', value: 'caramel' },
-  	  { label: 'Cookies and Cream', value: 'cookiescream' },
-  	  { label: 'Peppermint', value: 'peppermint' }
-    ]}
-  isMulti
-/>
+<div>
+  <div style={{ marginBottom: '20px' }}>
+    <Creatable
+			options={[
+					{ label: 'Chocolate', value: 'chocolate' },
+					{ label: 'Vanilla', value: 'vanilla' },
+					{ label: 'Strawberry', value: 'strawberry' },
+					{ label: 'Caramel', value: 'caramel' },
+					{ label: 'Cookies and Cream', value: 'cookiescream' },
+					{ label: 'Peppermint', value: 'peppermint' }
+				]}
+			isMulti
+		/>
+  </div>
+	<Creatable
+		options={[
+				{ label: 'Chocolate', value: 'chocolate' },
+				{ label: 'Vanilla', value: 'vanilla' },
+				{ label: 'Strawberry', value: 'strawberry' },
+				{ label: 'Caramel', value: 'caramel' },
+				{ label: 'Cookies and Cream', value: 'cookiescream' },
+				{ label: 'Peppermint', value: 'peppermint' }
+			]}
+		isMulti={true}
+		placeholder='Select with Portal'
+    menuPortalTarget={document.body}
+	/>
+</div>
 ```
 
 ### Component Name
