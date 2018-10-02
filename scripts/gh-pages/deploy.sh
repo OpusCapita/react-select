@@ -2,7 +2,7 @@
 # ideas used from https://gist.github.com/motemen/8595451
 
 # abort the script if there is a non-zero error
-set -e
+set -ex
 
 # show where we are on the machine
 pwd
