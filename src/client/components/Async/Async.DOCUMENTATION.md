@@ -8,23 +8,36 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
 ### Code Example
 
 ```
-<Async
-  loadOptions={
-    function(input, callback) {
-      setTimeout(function() {
-        callback(null, {
-          options: [
+<div>
+  <div style={{ marginBottom: '20px' }}>
+    <Async
+      loadOptions={
+        (inputValue, callback) => {
+          setTimeout(() => {
+            callback([
+              { value: 'one', label: 'One' },
+              { value: 'two', label: 'Two' }
+            ].filter(item=>item.value === inputValue || item.label === inputValue));
+          }, 1000);
+        }
+      }
+    />
+  </div>
+  <Async
+    loadOptions={
+      (inputValue, callback) => {
+        setTimeout(() => {
+          callback([
             { value: 'one', label: 'One' },
             { value: 'two', label: 'Two' }
-          ],
-          // CAREFUL! Only set this to true when there are no more options,
-          // or more specific queries will not be sent to the server.
-          complete: true
-        });
-      }, 500)
+          ].filter(item=>item.value === inputValue || item.label === inputValue));
+        }, 1000);
+      }
     }
-  }
-/>
+    placeholder='Select with Portal'
+    menuPortalTarget={document.body}
+  />
+</div>
 ```
 
 ### Component Name

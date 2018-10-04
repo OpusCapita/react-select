@@ -1,4 +1,9 @@
 
+[Release 2.0.0-oc.1-beta](https://github.com/OpusCapita/react-select/releases/tag/v2.0.0-oc.1-beta) Thu Sep 27 2018 22:08:57 GMT+0300 (MSK)
+=======================================================
+
+- Upgrade to react-select@2.x.x [#5](https://github.com/OpusCapita/react-select/issues/5) (Sergey Tamkov tamkov@scand.com, 2018-09-27 22:04:41 +0300)
+
 [Release 1.0.0-oc.3](https://github.com/OpusCapita/react-select/releases/tag/v1.0.0-oc.3) Wed Jul 25 2018 10:20:55 GMT+0300 (MSK)
 =======================================================
 
