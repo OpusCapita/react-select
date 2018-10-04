@@ -1,4 +1,11 @@
 
+[Release 2.0.0](https://github.com/OpusCapita/react-select/releases/tag/v2.0.0) Thu Oct 04 2018 16:56:44 GMT+0300 (MSK)
+=======================================================
+
+- Upgrade to react-select@2.x.x ([#6](https://github.com/OpusCapita/react-select/issues/6)) (Egor Stambakio kvolkovich-sc@users.noreply.github.com, 2018-10-04 16:52:41 +0300)
+- Update README.md (GitHub kvolkovich-sc@users.noreply.github.com, 2018-09-28 12:04:02 +0300)
+- Force gh-pages update (Kirill Volkovich kirill.volkovich@opuscapita.com, 2018-09-28 11:51:16 +0300)
+
 [Release 2.0.0-oc.1-beta](https://github.com/OpusCapita/react-select/releases/tag/v2.0.0-oc.1-beta) Thu Sep 27 2018 22:08:57 GMT+0300 (MSK)
 =======================================================
 
