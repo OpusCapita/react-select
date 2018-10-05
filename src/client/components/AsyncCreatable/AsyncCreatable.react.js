@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { AsyncCreatable as ReactAsyncCreatable } from 'react-select';
+import ReactAsyncCreatable from 'react-select/lib/AsyncCreatable';
 import '../Select/SelectCustom.less';
 import MenuPortal from '../MenuPortal__fix.react';
 

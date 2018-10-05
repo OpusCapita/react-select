@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Creatable as ReactCreatable } from 'react-select';
+import ReactCreatable from 'react-select/lib/Creatable';
 import '../Select/SelectCustom.less';
 import MenuPortal from '../MenuPortal__fix.react';
 
