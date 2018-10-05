@@ -1,4 +1,10 @@
 
+[Release 2.0.1](https://github.com/OpusCapita/react-select/releases/tag/v2.0.1) Fri Oct 05 2018 09:39:49 GMT+0300 (MSK)
+=======================================================
+
+- API changes === Previously `Select` could be imported via `import Select from '@opuscapita/react-select'` which is a `umd` bundle with `react-select` bundled within, which is useful if someone wants to load it via browser `script` tag. But this is not ideal for `Node.js` environment, because in this case it's better to `import` only actually needed code, without any dependencies copied inside. (Egor Stambakio stambakio@scand.com, 2018-10-05 09:29:39 +0300)
+- Refactor imports and build config to produce smaller artifacts (Egor Stambakio stambakio@scand.com, 2018-10-05 09:26:40 +0300)
+
 [Release 2.0.0](https://github.com/OpusCapita/react-select/releases/tag/v2.0.0) Thu Oct 04 2018 16:56:44 GMT+0300 (MSK)
 =======================================================
 
