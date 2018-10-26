@@ -10,6 +10,7 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
 <div>
   <div style={{ marginBottom: '20px' }}>
     <Creatable
+      innerRef={ref => console.log(ref)}
 			options={[
 					{ label: 'Chocolate', value: 'chocolate' },
 					{ label: 'Vanilla', value: 'vanilla' },

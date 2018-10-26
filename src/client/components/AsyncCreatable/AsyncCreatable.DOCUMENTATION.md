@@ -10,6 +10,7 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
 <div>
   <div style={{ marginBottom: '20px' }}>
     <AsyncCreatable
+      innerRef={ref => console.log(ref)}
       loadOptions={
         (inputValue, callback) => {
           setTimeout(() => {

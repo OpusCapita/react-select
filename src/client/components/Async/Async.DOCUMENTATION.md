@@ -11,6 +11,7 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
 <div>
   <div style={{ marginBottom: '20px' }}>
     <Async
+      innerRef={ref => console.log(ref)}
       loadOptions={
         (inputValue, callback) => {
           setTimeout(() => {
