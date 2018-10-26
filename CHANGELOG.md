@@ -1,4 +1,9 @@
 
+[Release 2.0.2](https://github.com/OpusCapita/react-select/releases/tag/v2.0.2) Fri Oct 26 2018 20:02:45 GMT+0300 (MSK)
+=======================================================
+
+-  [#7](https://github.com/OpusCapita/react-select/issues/7) Don't extend React.Component. Just return react-select "as is" (Kirill Volkovich kirill.volkovich@opuscapita.com, 2018-10-26 20:00:42 +0300)
+
 [Release 2.0.1](https://github.com/OpusCapita/react-select/releases/tag/v2.0.1) Fri Oct 05 2018 09:39:49 GMT+0300 (MSK)
 =======================================================
 
