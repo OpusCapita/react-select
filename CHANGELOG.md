@@ -1,4 +1,14 @@
 
+[Release 2.0.7](https://github.com/OpusCapita/react-select/releases/tag/v2.0.7) Fri Oct 26 2018 20:47:40 GMT+0300 (MSK)
+=======================================================
+
+
+[Release 2.0.6](https://github.com/OpusCapita/react-select/releases/tag/v2.0.6) Fri Oct 26 2018 20:12:29 GMT+0300 (MSK)
+=======================================================
+
+- Merge branch 'master' of github.com:OpusCapita/react-select (Kirill Volkovich kirill.volkovich@opuscapita.com, 2018-10-26 20:10:53 +0300)
+- Fix lint (Kirill Volkovich kirill.volkovich@opuscapita.com, 2018-10-26 20:08:32 +0300)
+
 [Release 2.0.2](https://github.com/OpusCapita/react-select/releases/tag/v2.0.2) Fri Oct 26 2018 20:02:45 GMT+0300 (MSK)
 =======================================================
 
