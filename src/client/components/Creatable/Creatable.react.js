@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+/* eslint-disable react/prop-types */
+import React from 'react';
 import ReactCreatable from 'react-select/lib/Creatable';
 import '../Select/SelectCustom.less';
 import MenuPortal from '../MenuPortal__fix.react';

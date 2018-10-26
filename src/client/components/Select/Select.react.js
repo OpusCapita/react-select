@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+/* eslint-disable react/prop-types */
 import React from 'react';
 import ReactSelect from 'react-select';
 import './SelectCustom.less';

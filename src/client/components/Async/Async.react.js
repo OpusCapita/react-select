@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+/* eslint-disable react/prop-types */
+import React from 'react';
 import AsyncSelect from 'react-select/lib/Async';
 import '../Select/SelectCustom.less';
 import MenuPortal from '../MenuPortal__fix.react';
