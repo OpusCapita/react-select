@@ -1,4 +1,8 @@
 
+[Release 2.0.7](https://github.com/OpusCapita/react-select/releases/tag/v2.0.7) Fri Oct 26 2018 20:47:40 GMT+0300 (MSK)
+=======================================================
+
+
 [Release 2.0.6](https://github.com/OpusCapita/react-select/releases/tag/v2.0.6) Fri Oct 26 2018 20:12:29 GMT+0300 (MSK)
 =======================================================
 
