@@ -1,4 +1,10 @@
 
+[Release 2.0.8](https://github.com/OpusCapita/react-select/releases/tag/v2.0.8) Fri Oct 26 2018 20:50:48 GMT+0300 (MSK)
+=======================================================
+
+- Merge branch 'master' of github.com:OpusCapita/react-select (Kirill Volkovich kirill.volkovich@opuscapita.com, 2018-10-26 20:48:43 +0300)
+-  [#8](https://github.com/OpusCapita/react-select/issues/8) Introduce "innerRef" prop (Kirill Volkovich kirill.volkovich@opuscapita.com, 2018-10-26 20:46:20 +0300)
+
 [Release 2.0.7](https://github.com/OpusCapita/react-select/releases/tag/v2.0.7) Fri Oct 26 2018 20:47:40 GMT+0300 (MSK)
 =======================================================
 
