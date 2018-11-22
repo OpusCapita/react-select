@@ -1,4 +1,9 @@
 
+[Release 2.0.9](https://github.com/OpusCapita/react-select/releases/tag/v2.0.9) Thu Nov 22 2018 14:17:25 GMT+0300 (MSK)
+=======================================================
+
+- Fix property 'isClearable' passing to react-select components ([#9](https://github.com/OpusCapita/react-select/issues/9)) ([#10](https://github.com/OpusCapita/react-select/issues/10)) (Kirill Volkovich 32921638+jluukka@users.noreply.github.com, 2018-11-22 13:14:29 +0200)
+
 [Release 2.0.8](https://github.com/OpusCapita/react-select/releases/tag/v2.0.8) Fri Oct 26 2018 20:50:48 GMT+0300 (MSK)
 =======================================================
 
