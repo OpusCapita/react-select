@@ -1,3 +1,4 @@
+import { components } from 'react-select';
 import Select from './components/Select';
 import Async from './components/Async';
 import AsyncCreatable from './components/AsyncCreatable';
@@ -11,5 +12,6 @@ export default Select;
 export {
 	Async,
 	AsyncCreatable,
-	Creatable
+	Creatable,
+	components
 };
