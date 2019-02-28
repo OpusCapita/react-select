@@ -1,4 +1,9 @@
 
+[Release 2.0.10](https://github.com/OpusCapita/react-select/releases/tag/v2.0.10) Thu Feb 28 2019 12:15:16 GMT+0300 (MSK)
+=======================================================
+
+- Export also react-select components to enable custom components according to docs (Egor Stambakio stambakio@scand.com, 2019-02-28 12:11:49 +0300)
+
 [Release 2.0.9](https://github.com/OpusCapita/react-select/releases/tag/v2.0.9) Thu Nov 22 2018 14:17:25 GMT+0300 (MSK)
 =======================================================
 
