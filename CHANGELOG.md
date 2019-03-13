@@ -1,4 +1,9 @@
 
+[Release 2.0.11](https://github.com/OpusCapita/react-select/releases/tag/v2.0.11) Wed Mar 13 2019 11:18:27 GMT+0300 (MSK)
+=======================================================
+
+- Fixing compatible by z-index with jcatalog-bootstrap inputs (GitHub ddivin-sc@users.noreply.github.com, 2019-03-13 11:16:47 +0300)
+
 [Release 2.0.10](https://github.com/OpusCapita/react-select/releases/tag/v2.0.10) Thu Feb 28 2019 12:15:16 GMT+0300 (MSK)
 =======================================================
 
