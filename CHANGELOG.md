@@ -1,4 +1,9 @@
 
+[Release 2.0.14](https://github.com/OpusCapita/react-select/releases/tag/v2.0.14) Fri Oct 04 2019 16:18:40 GMT+0300 (MSK)
+=======================================================
+
+- Add style for disabled state ([#13](https://github.com/OpusCapita/react-select/issues/13)) (GitHub 31243790+estambakio-sc@users.noreply.github.com, 2019-10-04 15:58:43 +0300)
+
 [Release 2.0.12](https://github.com/OpusCapita/react-select/releases/tag/v2.0.12) Wed Mar 13 2019 15:57:35 GMT+0300 (MSK)
 =======================================================
 

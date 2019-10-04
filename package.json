@@ -1,6 +1,6 @@
 {
   "name": "@opuscapita/react-select",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "description": "react-select with opuscapita styles",
   "scripts": {
     "link-mode": "webpack --watch --config ./webpack.link.config.js",
