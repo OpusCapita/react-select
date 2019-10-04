@@ -22,6 +22,21 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
 			isMulti
 		/>
   </div>
+	<div style={{ marginBottom: '20px' }}>
+    <Creatable
+      innerRef={ref => console.log(ref)}
+			options={[
+					{ label: 'Chocolate', value: 'chocolate' },
+					{ label: 'Vanilla', value: 'vanilla' },
+					{ label: 'Strawberry', value: 'strawberry' },
+					{ label: 'Caramel', value: 'caramel' },
+					{ label: 'Cookies and Cream', value: 'cookiescream' },
+					{ label: 'Peppermint', value: 'peppermint' }
+				]}
+			isDisabled={true}
+      placeholder='Select isDisabled=true'
+		/>
+  </div>
 	<Creatable
 		options={[
 				{ label: 'Chocolate', value: 'chocolate' },

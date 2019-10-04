@@ -24,6 +24,23 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
       }
     />
   </div>
+  <div style={{ marginBottom: '20px' }}>
+    <Async
+      innerRef={ref => console.log(ref)}
+      loadOptions={
+        (inputValue, callback) => {
+          setTimeout(() => {
+            callback([
+              { value: 'one', label: 'One' },
+              { value: 'two', label: 'Two' }
+            ].filter(item=>item.value === inputValue || item.label === inputValue));
+          }, 1000);
+        }
+      }
+      isDisabled={true}
+      placeholder='Select isDisabled=true'
+    />
+  </div>
   <Async
     loadOptions={
       (inputValue, callback) => {
