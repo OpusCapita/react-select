@@ -23,6 +23,22 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
       value={_scope.state.value}
     />
   </div>
+  <div style={{ marginBottom: '20px' }}>
+    <Select
+      options={[
+        { label: 'Chocolate', value: 'chocolate' },
+        { label: 'Vanilla', value: 'vanilla' },
+        { label: 'Strawberry', value: 'strawberry' },
+        { label: 'Caramel', value: 'caramel' },
+        { label: 'Cookies and Cream', value: 'cookiescream' },
+        { label: 'Peppermint', value: 'peppermint' }
+      ]}
+      isDisabled={true}
+      placeholder='Select isDisabled=true'
+      onChange={_scope.handleChange}
+      value={_scope.state.value}
+    />
+  </div>
   <Select
     options={[
       { label: 'Chocolate', value: 'chocolate' },
