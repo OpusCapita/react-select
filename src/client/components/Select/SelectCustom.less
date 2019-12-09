@@ -1,4 +1,12 @@
 .opuscapita_react-select--2-0-0 {
+  input[type=text] + div {
+    // https://github.com/OpusCapita/minsk-core-externals/issues/495 workaround
+    // Fix - The First Entered Character is Slightly Cut in Edge Browser
+    // Related issue: https://github.com/OpusCapita/minsk-core-externals/issues/495
+    // TODO - This fix can be removed after MS Edge will migrate to the Chromium.
+    font-size: 1.2em !important;
+  }
+
   .opuscapita_react-select__value-container {
     overflow: hidden;
     text-overflow: ellipsis;
