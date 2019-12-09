@@ -1,6 +1,6 @@
 {
   "name": "@opuscapita/react-select",
-  "version": "2.0.15",
+  "version": "2.0.15-issue-16",
   "description": "react-select with opuscapita styles",
   "scripts": {
     "link-mode": "webpack --watch --config ./webpack.link.config.js",
@@ -25,7 +25,7 @@
   ],
   "readme": "README.md",
   "dependencies": {
-    "react-select": "2.0.0"
+    "react-select": "2.4.4"
   },
   "peerDependencies": {
     "react": "^16.2.0",
