@@ -1,4 +1,9 @@
 
+[Release 2.0.15-issue-16](https://github.com/OpusCapita/react-select/releases/tag/v2.0.15-issue-16) Mon Dec 09 2019 12:01:05 GMT+0300 (MSK)
+=======================================================
+
+- Updated react-select version (Dmitriy Sanko dmitriy.sanko@opuscapita.com, 2019-12-09 11:52:53 +0300)
+
 [Release 2.0.14](https://github.com/OpusCapita/react-select/releases/tag/v2.0.14) Fri Oct 04 2019 16:18:40 GMT+0300 (MSK)
 =======================================================
 
