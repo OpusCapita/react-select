@@ -25,7 +25,7 @@
   ],
   "readme": "README.md",
   "dependencies": {
-    "react-select": "2.0.0"
+    "react-select": "2.4.4"
   },
   "peerDependencies": {
     "react": "^16.2.0",
