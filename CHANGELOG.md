@@ -1,4 +1,9 @@
 
+[Release 2.0.16](https://github.com/OpusCapita/react-select/releases/tag/v2.0.16) Tue Feb 18 2020 13:43:56 GMT+0300 (MSK)
+=======================================================
+
+- (OpusCapita/minsk-core-externals[#494](https://github.com/OpusCapita/react-select/issues/494)) Making styles for react-select customizable via style function ([#19](https://github.com/OpusCapita/react-select/issues/19)) (GitHub ksafin-sc@users.noreply.github.com, 2020-02-18 13:38:46 +0300)
+
 [Release 2.0.15](https://github.com/OpusCapita/react-select/releases/tag/v2.0.15) Tue Dec 10 2019 13:24:06 GMT+0300 (MSK)
 =======================================================
 
