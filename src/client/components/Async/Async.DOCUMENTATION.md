@@ -12,6 +12,39 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
   <div style={{ marginBottom: '20px' }}>
     <Async
       innerRef={ref => console.log(ref)}
+      value= {{ value: 'two1', label: 'Two1', statusId: '400'}}
+      loadOptions={
+        (inputValue, callback) => {
+            return callback([
+              { value: 'two1', label: 'Two1', statusId: '400'},
+              { value: 'two2', label: 'Two2', statusId: '400'},
+              { value: 'two3', label: 'Two3', statusId: '400'},
+              { value: 'two4', label: 'Two4', statusId: '700'},
+              { value: 'two5', label: 'Two5', statusId: '700'}
+            ]);
+        }
+      }
+      styles={{
+          option: (styles, { data, isDisabled, isFocused, isSelected }) => {
+            const customStyles = {};
+            if (data.statusId === '700') {
+              customStyles.backgroundColor = "#ccc";
+            } else {
+              customStyles.backgroundColor = "white";
+            }
+            return {
+              ...styles,
+              ...customStyles,
+              ':active': {
+                ...styles[':active'],
+                backgroundColor: data.statusId === '700' ? "#ccc" : "white",
+              },
+            }
+          }
+        }}
+    />
+    <Async
+      innerRef={ref => console.log(ref)}
       loadOptions={
         (inputValue, callback) => {
           setTimeout(() => {
