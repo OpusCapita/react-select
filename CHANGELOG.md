@@ -1,4 +1,9 @@
 
+[Release 2.0.17](https://github.com/OpusCapita/react-select/releases/tag/v2.0.17) Fri Feb 21 2020 09:06:43 GMT+0300 (MSK)
+=======================================================
+
+- Reexport createFilter, mergeStyles from original react-select (Egor Stambakio egor.stambakio@opuscapita.com, 2020-02-21 08:59:57 +0300)
+
 [Release 2.0.16](https://github.com/OpusCapita/react-select/releases/tag/v2.0.16) Tue Feb 18 2020 13:43:56 GMT+0300 (MSK)
 =======================================================
 
