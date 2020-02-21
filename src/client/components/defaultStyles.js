@@ -5,9 +5,9 @@ const defaultStyles = {
     return {
       ...styles,
       backgroundColor:
-        isSelected ? 'rgba(0, 126, 255, 0.04)'
-        : isFocused ? 'rgba(0, 126, 255, 0.08)'
-        : '#ffffff',
+        isSelected ? 'rgba(0, 126, 255, 0.04)' :
+        isFocused ? 'rgba(0, 126, 255, 0.08)' :
+        '#ffffff',
     }
   }
 }
