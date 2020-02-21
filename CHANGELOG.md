@@ -1,4 +1,9 @@
 
+[Release 2.0.18](https://github.com/OpusCapita/react-select/releases/tag/v2.0.18) Fri Feb 21 2020 11:36:28 GMT+0300 (MSK)
+=======================================================
+
+- Merge styles prop with default styles instead of replacing entirely ([#20](https://github.com/OpusCapita/react-select/issues/20)) (GitHub 31243790+estambakio-sc@users.noreply.github.com, 2020-02-21 11:34:17 +0300)
+
 [Release 2.0.17](https://github.com/OpusCapita/react-select/releases/tag/v2.0.17) Fri Feb 21 2020 09:06:43 GMT+0300 (MSK)
 =======================================================
 
