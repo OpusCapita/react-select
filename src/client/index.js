@@ -1,4 +1,4 @@
-import { components, createFilter, mergeStyles } from 'react-select';
+import { components, createFilter } from 'react-select';
 import Select from './components/Select';
 import Async from './components/Async';
 import AsyncCreatable from './components/AsyncCreatable';
@@ -14,6 +14,5 @@ export {
 	AsyncCreatable,
 	Creatable,
 	components,
-	createFilter,
-	mergeStyles
+	createFilter
 };
