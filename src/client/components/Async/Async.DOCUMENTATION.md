@@ -29,16 +29,10 @@ See documentation of [react-select](https://github.com/JedWatson/react-select)
             const customStyles = {};
             if (data.statusId === '700') {
               customStyles.backgroundColor = "#ccc";
-            } else {
-              customStyles.backgroundColor = "white";
             }
             return {
               ...styles,
-              ...customStyles,
-              ':active': {
-                ...styles[':active'],
-                backgroundColor: data.statusId === '700' ? "#ccc" : "white",
-              },
+              ...customStyles
             }
           }
         }}
