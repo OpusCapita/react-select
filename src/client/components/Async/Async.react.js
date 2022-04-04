@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import AsyncSelect from 'react-select/lib/Async';
+import AsyncSelect from 'react-select';
 import '../Select/SelectCustom.less';
 import MenuPortal from '../MenuPortal__fix.react';
 import { mergeDefaultStyles } from '../defaultStyles';

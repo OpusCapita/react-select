@@ -1,6 +1,6 @@
 {
   "name": "@opuscapita/react-select",
-  "version": "2.0.19",
+  "version": "2.0.19-EPROC-21081-SNAPSHOT",
   "description": "react-select with opuscapita styles",
   "scripts": {
     "link-mode": "webpack --watch --config ./webpack.link.config.js",
@@ -25,11 +25,11 @@
   ],
   "readme": "README.md",
   "dependencies": {
-    "react-select": "2.4.4"
+    "react-select": "5.2.2"
   },
   "peerDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@opuscapita/npm-scripts": "2.0.0",
